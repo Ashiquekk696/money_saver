@@ -23,6 +23,7 @@ lib/
 ├── utils/
 └── main.dart
 
+
 ### Folder Descriptions
 
 - **data/**: This layer handles data-related operations. It contains models, repositories, and data sources for interacting with external APIs, databases, or local storage.
