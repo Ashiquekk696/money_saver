@@ -15,7 +15,7 @@ This project follows the **Clean Architecture** design pattern with **BLoC** sta
   - **repositories/**: Repositories that manage data fetching and updating.
   - **sources/**: Data sources responsible for fetching data from remote or local sources.
 
-- **domain/**: This layer defines the business logic of the app and contains entities, repositories, and use cases.
+- **domain/**: This layer defines the business logic of the app and contains entities, repositories, and use cases.Currently this layer is not used here in the project.
   - **entities/**: Core data structures that represent domain entities.
   - **repositories/**: Defines abstract repository interfaces to be implemented in the data layer.
   - **usecases/**: Contains the business logic for each feature, interacting with the repositories.
