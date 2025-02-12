@@ -7,8 +7,7 @@ Saving Tracker is a Flutter app designed to help users track and manage their sa
 This project follows the **Clean Architecture** design pattern with **BLoC** state management. The project is organized into different layers to ensure separation of concerns.
 
 ### Folder Structure:
-lib/ ├── data/ │ ├── models/ │ ├── repositories/ │ └── sources/ ├── domain/ │ ├── entities/ │ ├── repositories/ │ └── usecases/ ├── features/ │ └── saving/ │ ├── presentation/ │ │ ├── bloc/ │ │ ├── pages/ │ │ └── widgets/ ├── utils/ 
-
+lib/ ├── data/ │ ├── models/ │ ├── repositories/ │ └── sources/ ├── domain/ │ ├── repositories/ ├── features/ │ └── saving/ │ ├── presentation/ │ │ ├── bloc/ │ │ ├── pages/ │ │ └── widgets/ ├── utils/ └── app.dart
 
 ### Folder Descriptions
 
